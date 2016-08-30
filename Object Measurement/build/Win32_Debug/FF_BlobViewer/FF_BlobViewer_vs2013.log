@@ -1,0 +1,15 @@
+﻿Build started 2016/1/8 20:58:40.
+     1>Project "C:\Users\lynn\Desktop\FF_BlobViewer\FF_BlobViewer_vs2013.vcxproj" on node 2 (Build target(s)).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /nologo /fo"build/Win32_Debug/FF_BlobViewer/mask_utils.res" mask_utils.rc 
+       Link:
+         D:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin/Win32/FF_BlobViewer_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../common/lib/Win32/v120 /LIBPATH:../../lib/Win32 /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/lib/Win32" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/sample/common/lib/Win32/v120" libpxc_d.lib libpxcutils_d.lib oleaut32.lib user32.lib odbccp32.lib ole32.lib advapi32.lib shell32.lib gdi32.lib comdlg32.lib uuid.lib winspool.lib odbc32.lib kernel32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin/Win32/FF_BlobViewer_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/Win32/FF_BlobViewer_d.lib" /MACHINE:X86 /SAFESEH build/Win32_Debug/FF_BlobViewer/mask_utils.res
+         build/Win32_Debug/FF_BlobViewer/main.obj
+         build/Win32_Debug/FF_BlobViewer/timer.obj
+         build/Win32_Debug/FF_BlobViewer/MaskUtils.obj
+         FF_BlobViewer_vs2013.vcxproj -> C:\Users\lynn\Desktop\FF_BlobViewer\bin/Win32/FF_BlobViewer_d.exe
+     1>Done Building Project "C:\Users\lynn\Desktop\FF_BlobViewer\FF_BlobViewer_vs2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.53
